@@ -31,6 +31,7 @@ namespace TheRetailStoreDiscounts.Tests
 
             Assert.Equal(945, netPayableAmount);
         }
+        
 
         [Fact]  
          public void StoreEmployee_Gets_ThirtyPercent_Discount()
