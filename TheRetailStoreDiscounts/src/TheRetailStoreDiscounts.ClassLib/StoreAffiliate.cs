@@ -1,20 +1,36 @@
+using System;
+
 namespace TheRetailStoreDiscounts.ClassLib
 {
     public class StoreAffiliate : User
     {
+        int affliationNumber;
+
         /// <summary>
         /// The class StoreAffiliate models the concept of a user who is an affiliate of the retail website
         /// </summary>// 
-        public StoreAffiliate(double billAmount)
+        public StoreAffiliate(int affliationNumber)
         {
-            this.discountPercent = 0.1;
-            this.billAmount = billAmount;
+            this.affliationNumber = affliationNumber;   
         }
 
-        public override double Discount()
+        public override double getNetAmountPayable(Bill bill)
         {
-            //return  (billAmount - (billAmount * discountPercent));
-            return this.getNetAmountPayable();
+            double amount = bill.getAmount();
+            string item = bill.getItem();
+            double netAmountPayable = 0.0;
+
+            if(item.Equals("Groceries")) 
+            { 
+                netAmountPayable = amount;
+            }
+            else
+            {
+                netAmountPayable = (amount >= 100) ? (amount - (hundredDollarDiscountRate * Math.Truncate(amount/100)))
+                    : (amount - (amount * .1));
+            }
+
+            return netAmountPayable;
         }
     }
 }

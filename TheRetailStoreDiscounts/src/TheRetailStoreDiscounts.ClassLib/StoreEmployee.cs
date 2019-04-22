@@ -1,3 +1,5 @@
+using System;
+
 namespace TheRetailStoreDiscounts.ClassLib
 {
      /// <summary>
@@ -5,14 +7,33 @@ namespace TheRetailStoreDiscounts.ClassLib
     /// </summary>//
     public class StoreEmployee : User
     {
-        public StoreEmployee(double billAmount)
+        private int employeeNumber;
+
+        public StoreEmployee(int employeeNumber)
         {
-            this.discountPercent = 0.3;
-            this.billAmount = billAmount;
+            this.employeeNumber = employeeNumber;
+            this.discountPercentage = 0.3;
         }
-        public override double Discount() {
-            //return  (billAmount - (billAmount * discountPercent));
-            return this.getNetAmountPayable();
+
+        // Store employee gets a 30% discount on non-grocery items
+        public override double getNetAmountPayable(Bill bill) {
+
+            double netAmountPayable;
+            double amount = bill.getAmount();
+            string item = bill.getItem();
+
+            if (!bill.getItem().Equals("Groceries"))
+            { 
+                netAmountPayable = (amount >= 100) ? (amount - (5 * Math.Truncate(amount / 100)))
+                    : (amount - (amount * discountPercentage));
+            }
+            else
+            {
+                netAmountPayable = amount;
+
+            }
+
+            return  netAmountPayable;
         }
     }
 }

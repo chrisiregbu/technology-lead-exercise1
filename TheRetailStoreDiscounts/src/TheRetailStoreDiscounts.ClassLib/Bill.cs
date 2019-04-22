@@ -11,11 +11,18 @@ namespace TheRetailStoreDiscounts.ClassLib
 
     public class Bill
     {
-        List <Item> items = null;
-        public Bill (List<Item>items)
+        private int billNumber;
+        private double amount = 0.0;
+        private string itemDescription = string.Empty;
+
+        public Bill (int billNumber, double amount, string itemDescription)
         {
-            this.items = new List<Item>();
-            this.items = items;  
+            this.billNumber = billNumber;
+            this.amount = amount;
+            this.itemDescription = itemDescription;
         }
+
+        public double getAmount() => amount;
+        public string getItem(){ return itemDescription;}
     }
 }

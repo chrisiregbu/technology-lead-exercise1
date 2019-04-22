@@ -7,21 +7,10 @@ namespace TheRetailStoreDiscounts.ClassLib
     /// the abstract method Discount computes the discount on items bought
     /// </summary>//     
     public abstract class User {
+        protected string name = "";
+        protected double discountPercentage = 0.0;
+        protected double hundredDollarDiscountRate = 5.0;
 
-        protected double billAmount, discountRate = 5.0;
-        protected double discountPercent;
-
-        protected double getNetAmountPayable()
-        {
-            if(billAmount != 0 && billAmount >= 100)
-            {
-                return (billAmount - (discountRate * Math.Round(billAmount/100)));
-            }
-            else
-            {
-                return (billAmount - (billAmount * discountPercent));
-            }
-        }
-        public abstract double Discount();
+        public abstract double getNetAmountPayable(Bill bill);
     }
 }

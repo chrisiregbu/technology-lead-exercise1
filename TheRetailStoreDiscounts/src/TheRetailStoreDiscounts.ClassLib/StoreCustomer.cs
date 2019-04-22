@@ -1,3 +1,5 @@
+using System;
+
 namespace TheRetailStoreDiscounts.ClassLib
 {
     public class StoreCustomer : User
@@ -5,16 +7,29 @@ namespace TheRetailStoreDiscounts.ClassLib
         /// <summary>
         /// The class Customer models the concept of a user whos is a customer of the retail website
         /// </summary>//
-        private int yearsAsCustomer;
-        public StoreCustomer(int yearsAsCustomer, double billAmount)
+        private int customerNumber, numberOfYears;
+
+        public StoreCustomer(int customerNumber, int numberOfYears)
         {
-            this.yearsAsCustomer = yearsAsCustomer;
-            this.billAmount = billAmount;
+            this.customerNumber = customerNumber;
+            this.numberOfYears = numberOfYears;
         }
-        public override double Discount()
-        {          
-           //return (yearsAsCustomer > 2) ? (billAmount - (billAmount * discountPercent)) : this.billAmount;
-           return (yearsAsCustomer > 2) ? this.getNetAmountPayable() : this.billAmount;
+        public override double getNetAmountPayable(Bill bill)
+        {        
+            double amount = bill.getAmount();
+            double netAmountPayable;
+
+            if(bill.getItem().Equals("Groceries") || numberOfYears <= 2) 
+            {
+                netAmountPayable = amount;
+            }
+            else
+            {
+                netAmountPayable = (amount >= 100) ? (amount - (hundredDollarDiscountRate * Math.Truncate(amount/100)))
+                    : amount - (amount * .05);
+            }
+
+            return netAmountPayable;
         }
     }
 }
