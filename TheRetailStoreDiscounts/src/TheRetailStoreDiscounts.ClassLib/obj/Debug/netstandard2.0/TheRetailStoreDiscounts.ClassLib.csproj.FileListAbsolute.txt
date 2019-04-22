@@ -1,0 +1,9 @@
+C:\Users\Chris\Development\Projects\TheRetailStoreDiscounts\src\TheRetailStoreDiscounts.ClassLib\bin\Debug\netstandard2.0\TheRetailStoreDiscounts.ClassLib.deps.json
+C:\Users\Chris\Development\Projects\TheRetailStoreDiscounts\src\TheRetailStoreDiscounts.ClassLib\bin\Debug\netstandard2.0\TheRetailStoreDiscounts.ClassLib.dll
+C:\Users\Chris\Development\Projects\TheRetailStoreDiscounts\src\TheRetailStoreDiscounts.ClassLib\bin\Debug\netstandard2.0\TheRetailStoreDiscounts.ClassLib.pdb
+C:\Users\Chris\Development\Projects\TheRetailStoreDiscounts\src\TheRetailStoreDiscounts.ClassLib\obj\Debug\netstandard2.0\TheRetailStoreDiscounts.ClassLib.csprojAssemblyReference.cache
+C:\Users\Chris\Development\Projects\TheRetailStoreDiscounts\src\TheRetailStoreDiscounts.ClassLib\obj\Debug\netstandard2.0\TheRetailStoreDiscounts.ClassLib.csproj.CoreCompileInputs.cache
+C:\Users\Chris\Development\Projects\TheRetailStoreDiscounts\src\TheRetailStoreDiscounts.ClassLib\obj\Debug\netstandard2.0\TheRetailStoreDiscounts.ClassLib.AssemblyInfoInputs.cache
+C:\Users\Chris\Development\Projects\TheRetailStoreDiscounts\src\TheRetailStoreDiscounts.ClassLib\obj\Debug\netstandard2.0\TheRetailStoreDiscounts.ClassLib.AssemblyInfo.cs
+C:\Users\Chris\Development\Projects\TheRetailStoreDiscounts\src\TheRetailStoreDiscounts.ClassLib\obj\Debug\netstandard2.0\TheRetailStoreDiscounts.ClassLib.dll
+C:\Users\Chris\Development\Projects\TheRetailStoreDiscounts\src\TheRetailStoreDiscounts.ClassLib\obj\Debug\netstandard2.0\TheRetailStoreDiscounts.ClassLib.pdb

@@ -1,0 +1,14 @@
+C:\Users\Chris\Development\Projects\TheRetailStoreDiscounts\src\TheRetailStoreDiscounts.ConsoleApp\bin\Debug\netcoreapp2.2\TheRetailStoreDiscounts.ConsoleApp.deps.json
+C:\Users\Chris\Development\Projects\TheRetailStoreDiscounts\src\TheRetailStoreDiscounts.ConsoleApp\bin\Debug\netcoreapp2.2\TheRetailStoreDiscounts.ConsoleApp.runtimeconfig.json
+C:\Users\Chris\Development\Projects\TheRetailStoreDiscounts\src\TheRetailStoreDiscounts.ConsoleApp\bin\Debug\netcoreapp2.2\TheRetailStoreDiscounts.ConsoleApp.runtimeconfig.dev.json
+C:\Users\Chris\Development\Projects\TheRetailStoreDiscounts\src\TheRetailStoreDiscounts.ConsoleApp\bin\Debug\netcoreapp2.2\TheRetailStoreDiscounts.ConsoleApp.dll
+C:\Users\Chris\Development\Projects\TheRetailStoreDiscounts\src\TheRetailStoreDiscounts.ConsoleApp\bin\Debug\netcoreapp2.2\TheRetailStoreDiscounts.ConsoleApp.pdb
+C:\Users\Chris\Development\Projects\TheRetailStoreDiscounts\src\TheRetailStoreDiscounts.ConsoleApp\bin\Debug\netcoreapp2.2\TheRetailStoreDiscounts.ClassLib.dll
+C:\Users\Chris\Development\Projects\TheRetailStoreDiscounts\src\TheRetailStoreDiscounts.ConsoleApp\bin\Debug\netcoreapp2.2\TheRetailStoreDiscounts.ClassLib.pdb
+C:\Users\Chris\Development\Projects\TheRetailStoreDiscounts\src\TheRetailStoreDiscounts.ConsoleApp\obj\Debug\netcoreapp2.2\TheRetailStoreDiscounts.ConsoleApp.csprojAssemblyReference.cache
+C:\Users\Chris\Development\Projects\TheRetailStoreDiscounts\src\TheRetailStoreDiscounts.ConsoleApp\obj\Debug\netcoreapp2.2\TheRetailStoreDiscounts.ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\Chris\Development\Projects\TheRetailStoreDiscounts\src\TheRetailStoreDiscounts.ConsoleApp\obj\Debug\netcoreapp2.2\TheRetailStoreDiscounts.ConsoleApp.AssemblyInfoInputs.cache
+C:\Users\Chris\Development\Projects\TheRetailStoreDiscounts\src\TheRetailStoreDiscounts.ConsoleApp\obj\Debug\netcoreapp2.2\TheRetailStoreDiscounts.ConsoleApp.AssemblyInfo.cs
+C:\Users\Chris\Development\Projects\TheRetailStoreDiscounts\src\TheRetailStoreDiscounts.ConsoleApp\obj\Debug\netcoreapp2.2\TheRetailStoreDiscounts.ConsoleApp.csproj.CopyComplete
+C:\Users\Chris\Development\Projects\TheRetailStoreDiscounts\src\TheRetailStoreDiscounts.ConsoleApp\obj\Debug\netcoreapp2.2\TheRetailStoreDiscounts.ConsoleApp.dll
+C:\Users\Chris\Development\Projects\TheRetailStoreDiscounts\src\TheRetailStoreDiscounts.ConsoleApp\obj\Debug\netcoreapp2.2\TheRetailStoreDiscounts.ConsoleApp.pdb

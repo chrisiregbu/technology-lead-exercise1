@@ -1,0 +1,17 @@
+C:\Users\Chris\Development\Projects\TheRetailStoreDiscounts\test\TheRetailStoreDiscounts.Tests\bin\Debug\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\Chris\Development\Projects\TheRetailStoreDiscounts\test\TheRetailStoreDiscounts.Tests\bin\Debug\netcoreapp2.2\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\Chris\Development\Projects\TheRetailStoreDiscounts\test\TheRetailStoreDiscounts.Tests\bin\Debug\netcoreapp2.2\xunit.runner.utility.netcoreapp10.dll
+C:\Users\Chris\Development\Projects\TheRetailStoreDiscounts\test\TheRetailStoreDiscounts.Tests\bin\Debug\netcoreapp2.2\TheRetailStoreDiscounts.Tests.deps.json
+C:\Users\Chris\Development\Projects\TheRetailStoreDiscounts\test\TheRetailStoreDiscounts.Tests\bin\Debug\netcoreapp2.2\TheRetailStoreDiscounts.Tests.runtimeconfig.json
+C:\Users\Chris\Development\Projects\TheRetailStoreDiscounts\test\TheRetailStoreDiscounts.Tests\bin\Debug\netcoreapp2.2\TheRetailStoreDiscounts.Tests.runtimeconfig.dev.json
+C:\Users\Chris\Development\Projects\TheRetailStoreDiscounts\test\TheRetailStoreDiscounts.Tests\bin\Debug\netcoreapp2.2\TheRetailStoreDiscounts.Tests.dll
+C:\Users\Chris\Development\Projects\TheRetailStoreDiscounts\test\TheRetailStoreDiscounts.Tests\bin\Debug\netcoreapp2.2\TheRetailStoreDiscounts.Tests.pdb
+C:\Users\Chris\Development\Projects\TheRetailStoreDiscounts\test\TheRetailStoreDiscounts.Tests\bin\Debug\netcoreapp2.2\TheRetailStoreDiscounts.ClassLib.dll
+C:\Users\Chris\Development\Projects\TheRetailStoreDiscounts\test\TheRetailStoreDiscounts.Tests\bin\Debug\netcoreapp2.2\TheRetailStoreDiscounts.ClassLib.pdb
+C:\Users\Chris\Development\Projects\TheRetailStoreDiscounts\test\TheRetailStoreDiscounts.Tests\obj\Debug\netcoreapp2.2\TheRetailStoreDiscounts.Tests.csprojAssemblyReference.cache
+C:\Users\Chris\Development\Projects\TheRetailStoreDiscounts\test\TheRetailStoreDiscounts.Tests\obj\Debug\netcoreapp2.2\TheRetailStoreDiscounts.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Chris\Development\Projects\TheRetailStoreDiscounts\test\TheRetailStoreDiscounts.Tests\obj\Debug\netcoreapp2.2\TheRetailStoreDiscounts.Tests.AssemblyInfoInputs.cache
+C:\Users\Chris\Development\Projects\TheRetailStoreDiscounts\test\TheRetailStoreDiscounts.Tests\obj\Debug\netcoreapp2.2\TheRetailStoreDiscounts.Tests.AssemblyInfo.cs
+C:\Users\Chris\Development\Projects\TheRetailStoreDiscounts\test\TheRetailStoreDiscounts.Tests\obj\Debug\netcoreapp2.2\TheRetailStoreDiscounts.Tests.csproj.CopyComplete
+C:\Users\Chris\Development\Projects\TheRetailStoreDiscounts\test\TheRetailStoreDiscounts.Tests\obj\Debug\netcoreapp2.2\TheRetailStoreDiscounts.Tests.dll
+C:\Users\Chris\Development\Projects\TheRetailStoreDiscounts\test\TheRetailStoreDiscounts.Tests\obj\Debug\netcoreapp2.2\TheRetailStoreDiscounts.Tests.pdb
