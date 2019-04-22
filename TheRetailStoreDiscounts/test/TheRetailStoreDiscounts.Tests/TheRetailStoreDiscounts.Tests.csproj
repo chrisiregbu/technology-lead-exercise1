@@ -2,7 +2,6 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
-
     <IsPackable>false</IsPackable>
   </PropertyGroup>
 
@@ -13,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\TheRetailStoreDiscounts.ClassLib\TheRetailStoreDiscounts.ClassLib.csproj" />
+    <ProjectReference Include="..\..\src\TheRetailStoreDiscounts.ClassLib\TheRetailStoreDiscounts.ClassLib.csproj" /> 
   </ItemGroup>
 
 </Project>

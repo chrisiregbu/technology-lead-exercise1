@@ -13,7 +13,7 @@ namespace TheRetailStoreDiscounts.ClassLib
 
         protected double getNetAmountPayable()
         {
-            if(billAmount != 0 && billAmount > 100)
+            if(billAmount != 0 && billAmount >= 100)
             {
                 return (billAmount - (discountRate * Math.Round(billAmount/100)));
             }

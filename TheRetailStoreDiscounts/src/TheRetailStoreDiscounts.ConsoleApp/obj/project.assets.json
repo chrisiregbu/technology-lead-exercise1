@@ -708,11 +708,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Chris\\Development\\Projects\\TheRetailStoreDiscounts\\src\\TheRetailStoreDiscounts.ConsoleApp\\TheRetailStoreDiscounts.ConsoleApp.csproj",
+      "projectUniqueName": "C:\\Users\\Chris\\Development\\Projects\\TheRetailStoreDiscounts\\src\\TheRetailStoreDiscounts.ConsoleApp\\TheRetailStoreDiscounts.ConsoleApp.csproj",
       "projectName": "TheRetailStoreDiscounts.ConsoleApp",
-      "projectPath": "c:\\Users\\Chris\\Development\\Projects\\TheRetailStoreDiscounts\\src\\TheRetailStoreDiscounts.ConsoleApp\\TheRetailStoreDiscounts.ConsoleApp.csproj",
+      "projectPath": "C:\\Users\\Chris\\Development\\Projects\\TheRetailStoreDiscounts\\src\\TheRetailStoreDiscounts.ConsoleApp\\TheRetailStoreDiscounts.ConsoleApp.csproj",
       "packagesPath": "C:\\Users\\Chris\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Chris\\Development\\Projects\\TheRetailStoreDiscounts\\src\\TheRetailStoreDiscounts.ConsoleApp\\obj\\",
+      "outputPath": "C:\\Users\\Chris\\Development\\Projects\\TheRetailStoreDiscounts\\src\\TheRetailStoreDiscounts.ConsoleApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -729,8 +729,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "c:\\Users\\Chris\\Development\\Projects\\TheRetailStoreDiscounts\\src\\TheRetailStoreDiscounts.ClassLib\\TheRetailStoreDiscounts.ClassLib.csproj": {
-              "projectPath": "c:\\Users\\Chris\\Development\\Projects\\TheRetailStoreDiscounts\\src\\TheRetailStoreDiscounts.ClassLib\\TheRetailStoreDiscounts.ClassLib.csproj"
+            "C:\\Users\\Chris\\Development\\Projects\\TheRetailStoreDiscounts\\src\\TheRetailStoreDiscounts.ClassLib\\TheRetailStoreDiscounts.ClassLib.csproj": {
+              "projectPath": "C:\\Users\\Chris\\Development\\Projects\\TheRetailStoreDiscounts\\src\\TheRetailStoreDiscounts.ClassLib\\TheRetailStoreDiscounts.ClassLib.csproj"
             }
           }
         }

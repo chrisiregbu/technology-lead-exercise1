@@ -5874,11 +5874,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Chris\\Development\\Projects\\TheRetailStoreDiscounts\\test\\TheRetailStoreDiscounts.Tests\\TheRetailStoreDiscounts.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\Chris\\Development\\Projects\\TheRetailStoreDiscounts\\test\\TheRetailStoreDiscounts.Tests\\TheRetailStoreDiscounts.Tests.csproj",
       "projectName": "TheRetailStoreDiscounts.Tests",
-      "projectPath": "c:\\Users\\Chris\\Development\\Projects\\TheRetailStoreDiscounts\\test\\TheRetailStoreDiscounts.Tests\\TheRetailStoreDiscounts.Tests.csproj",
+      "projectPath": "C:\\Users\\Chris\\Development\\Projects\\TheRetailStoreDiscounts\\test\\TheRetailStoreDiscounts.Tests\\TheRetailStoreDiscounts.Tests.csproj",
       "packagesPath": "C:\\Users\\Chris\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Chris\\Development\\Projects\\TheRetailStoreDiscounts\\test\\TheRetailStoreDiscounts.Tests\\obj\\",
+      "outputPath": "C:\\Users\\Chris\\Development\\Projects\\TheRetailStoreDiscounts\\test\\TheRetailStoreDiscounts.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5895,8 +5895,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "c:\\Users\\Chris\\Development\\Projects\\TheRetailStoreDiscounts\\src\\TheRetailStoreDiscounts.ClassLib\\TheRetailStoreDiscounts.ClassLib.csproj": {
-              "projectPath": "c:\\Users\\Chris\\Development\\Projects\\TheRetailStoreDiscounts\\src\\TheRetailStoreDiscounts.ClassLib\\TheRetailStoreDiscounts.ClassLib.csproj"
+            "C:\\Users\\Chris\\Development\\Projects\\TheRetailStoreDiscounts\\src\\TheRetailStoreDiscounts.ClassLib\\TheRetailStoreDiscounts.ClassLib.csproj": {
+              "projectPath": "C:\\Users\\Chris\\Development\\Projects\\TheRetailStoreDiscounts\\src\\TheRetailStoreDiscounts.ClassLib\\TheRetailStoreDiscounts.ClassLib.csproj"
             }
           }
         }
