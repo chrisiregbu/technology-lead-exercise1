@@ -2,6 +2,9 @@ namespace TheRetailStoreDiscounts.ClassLib
 {
     public class StoreCustomer : User
     {
+        /// <summary>
+        /// The class Customer models the concept of a user whos is a customer of the retail website
+        /// </summary>//
         private int yearsAsCustomer;
         public StoreCustomer(int yearsAsCustomer, double billAmount)
         {

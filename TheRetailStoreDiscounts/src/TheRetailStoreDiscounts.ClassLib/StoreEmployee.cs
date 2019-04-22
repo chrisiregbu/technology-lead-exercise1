@@ -1,6 +1,8 @@
-//using System.Runtime.InteropServices.WindowsRuntime;
 namespace TheRetailStoreDiscounts.ClassLib
 {
+     /// <summary>
+    /// The class StoreEmployee models the concept of a user employed by the retail website
+    /// </summary>//
     public class StoreEmployee : User
     {
         public StoreEmployee(double billAmount)

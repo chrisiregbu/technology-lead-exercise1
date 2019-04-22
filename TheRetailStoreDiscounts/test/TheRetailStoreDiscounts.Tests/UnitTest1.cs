@@ -6,19 +6,19 @@ namespace TheRetailStoreDiscounts.Tests
 {
     public class StoreEmployeeTests
     {     
-        private readonly StoreEmployee _storeEmployee;
+        private StoreEmployee _storeEmployee;
 
         [Fact]
         public void Should_Get_Thirty_Percent_Discount()
         {    
-            _storeEmployee = new StoreEmployee();
+            _storeEmployee = new StoreEmployee(100.00);
         }
     
         [Fact]
-        public void ReturnNetAmountPayable()
+        public double ReturnTrueGivenNetAmountPayable95()
         {           
-            double netPayableAmount = _storeEmployee.Should_Get_Thirty_Percent_Discount().Discount();
-            //Assert.True(netPayableAmount, EqualTo(.3));
+            var netPayableAmount = new StoreEmployee(100.00).Discount();
+            return netPayableAmount;
         }
     }
 }
