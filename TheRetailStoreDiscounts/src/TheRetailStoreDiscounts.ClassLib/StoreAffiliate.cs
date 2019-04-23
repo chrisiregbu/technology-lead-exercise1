@@ -11,7 +11,8 @@ namespace TheRetailStoreDiscounts.ClassLib
         /// </summary>// 
         public StoreAffiliate(int affliationNumber)
         {
-            this.affliationNumber = affliationNumber;   
+            this.affliationNumber = affliationNumber;
+            discountPercentage = .1;   
         }
 
         public override double getNetAmountPayable(Bill bill)
@@ -27,7 +28,7 @@ namespace TheRetailStoreDiscounts.ClassLib
             else
             {
                 netAmountPayable = (amount >= 100) ? (amount - (hundredDollarDiscountRate * Math.Truncate(amount/100)))
-                    : (amount - (amount * .1));
+                    : (amount - (amount * discountPercentage));
             }
 
             return netAmountPayable;

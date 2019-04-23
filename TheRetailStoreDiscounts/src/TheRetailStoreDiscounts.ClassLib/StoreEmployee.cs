@@ -24,7 +24,7 @@ namespace TheRetailStoreDiscounts.ClassLib
 
             if (!bill.getItem().Equals("Groceries"))
             { 
-                netAmountPayable = (amount >= 100) ? (amount - (5 * Math.Truncate(amount / 100)))
+                netAmountPayable = (amount >= 100) ? (amount - (hundredDollarDiscountRate * Math.Truncate(amount / 100)))
                     : (amount - (amount * discountPercentage));
             }
             else

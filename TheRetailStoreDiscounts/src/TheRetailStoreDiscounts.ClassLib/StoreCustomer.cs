@@ -13,6 +13,7 @@ namespace TheRetailStoreDiscounts.ClassLib
         {
             this.customerNumber = customerNumber;
             this.numberOfYears = numberOfYears;
+            this.discountPercentage = .05;
         }
         public override double getNetAmountPayable(Bill bill)
         {        
@@ -26,7 +27,7 @@ namespace TheRetailStoreDiscounts.ClassLib
             else
             {
                 netAmountPayable = (amount >= 100) ? (amount - (hundredDollarDiscountRate * Math.Truncate(amount/100)))
-                    : amount - (amount * .05);
+                    : amount - (amount * discountPercentage);
             }
 
             return netAmountPayable;

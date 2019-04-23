@@ -8,8 +8,8 @@ namespace TheRetailStoreDiscounts.ClassLib
     /// </summary>//     
     public abstract class User {
         protected string name = "";
-        protected double discountPercentage = 0.0;
-        protected double hundredDollarDiscountRate = 5.0;
+        protected double discountPercentage = 0;
+        protected double hundredDollarDiscountRate = 5;
 
         public abstract double getNetAmountPayable(Bill bill);
     }
