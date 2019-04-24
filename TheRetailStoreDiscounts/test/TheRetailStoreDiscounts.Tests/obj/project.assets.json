@@ -2,6 +2,13 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.2": {
+      "coverlet.msbuild/2.0.1": {
+        "type": "package",
+        "build": {
+          "build/netstandard2.0/coverlet.msbuild.props": {},
+          "build/netstandard2.0/coverlet.msbuild.targets": {}
+        }
+      },
       "Microsoft.CodeCoverage/15.9.0": {
         "type": "package",
         "compile": {
@@ -1687,6 +1694,85 @@
     }
   },
   "libraries": {
+    "coverlet.msbuild/2.0.1": {
+      "sha512": "KB0c58cTgNRVUCYR4lnLRdIhrlynWJIfDGHS6vm6ieGw6GQQ1r2WRBqW+VvqCfcQuHBRPe+aVVq8q87q1kmA9w==",
+      "type": "package",
+      "path": "coverlet.msbuild/2.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/netstandard2.0/ConsoleTables.dll",
+        "build/netstandard2.0/Jil.Core.dll",
+        "build/netstandard2.0/Microsoft.Build.Framework.dll",
+        "build/netstandard2.0/Microsoft.Build.Utilities.Core.dll",
+        "build/netstandard2.0/Microsoft.CSharp.dll",
+        "build/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.dll",
+        "build/netstandard2.0/Mono.Cecil.Mdb.dll",
+        "build/netstandard2.0/Mono.Cecil.Pdb.dll",
+        "build/netstandard2.0/Mono.Cecil.Rocks.dll",
+        "build/netstandard2.0/Mono.Cecil.dll",
+        "build/netstandard2.0/Sigil.dll",
+        "build/netstandard2.0/System.AppContext.dll",
+        "build/netstandard2.0/System.Collections.Concurrent.dll",
+        "build/netstandard2.0/System.Collections.Immutable.dll",
+        "build/netstandard2.0/System.Collections.NonGeneric.dll",
+        "build/netstandard2.0/System.Collections.Specialized.dll",
+        "build/netstandard2.0/System.ComponentModel.Primitives.dll",
+        "build/netstandard2.0/System.ComponentModel.TypeConverter.dll",
+        "build/netstandard2.0/System.ComponentModel.dll",
+        "build/netstandard2.0/System.Dynamic.Runtime.dll",
+        "build/netstandard2.0/System.IO.FileSystem.Primitives.dll",
+        "build/netstandard2.0/System.Linq.Expressions.dll",
+        "build/netstandard2.0/System.Linq.dll",
+        "build/netstandard2.0/System.ObjectModel.dll",
+        "build/netstandard2.0/System.Private.DataContractSerialization.dll",
+        "build/netstandard2.0/System.Reflection.Emit.ILGeneration.dll",
+        "build/netstandard2.0/System.Reflection.Emit.Lightweight.dll",
+        "build/netstandard2.0/System.Reflection.Emit.dll",
+        "build/netstandard2.0/System.Reflection.Metadata.dll",
+        "build/netstandard2.0/System.Reflection.TypeExtensions.dll",
+        "build/netstandard2.0/System.Resources.Reader.dll",
+        "build/netstandard2.0/System.Runtime.Numerics.dll",
+        "build/netstandard2.0/System.Runtime.Serialization.Primitives.dll",
+        "build/netstandard2.0/System.Runtime.Serialization.Xml.dll",
+        "build/netstandard2.0/System.Security.Cryptography.Primitives.dll",
+        "build/netstandard2.0/System.Text.RegularExpressions.dll",
+        "build/netstandard2.0/System.Threading.Tasks.Extensions.dll",
+        "build/netstandard2.0/System.Threading.Tasks.Parallel.dll",
+        "build/netstandard2.0/System.Threading.Thread.dll",
+        "build/netstandard2.0/System.Threading.ThreadPool.dll",
+        "build/netstandard2.0/System.Threading.dll",
+        "build/netstandard2.0/System.Xml.ReaderWriter.dll",
+        "build/netstandard2.0/System.Xml.XmlDocument.dll",
+        "build/netstandard2.0/System.Xml.XmlSerializer.dll",
+        "build/netstandard2.0/coverlet.core.dll",
+        "build/netstandard2.0/coverlet.msbuild.props",
+        "build/netstandard2.0/coverlet.msbuild.targets",
+        "build/netstandard2.0/coverlet.msbuild.tasks.deps.json",
+        "build/netstandard2.0/coverlet.msbuild.tasks.dll",
+        "build/netstandard2.0/runtimes/linux/lib/netstandard1.4/System.Diagnostics.Process.dll",
+        "build/netstandard2.0/runtimes/osx/lib/netstandard1.4/System.Diagnostics.Process.dll",
+        "build/netstandard2.0/runtimes/unix/lib/netstandard1.1/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "build/netstandard2.0/runtimes/unix/lib/netstandard1.3/Microsoft.Win32.Registry.dll",
+        "build/netstandard2.0/runtimes/unix/lib/netstandard1.3/System.Diagnostics.TraceSource.dll",
+        "build/netstandard2.0/runtimes/unix/lib/netstandard1.3/System.Globalization.Extensions.dll",
+        "build/netstandard2.0/runtimes/unix/lib/netstandard1.3/System.Security.Cryptography.Csp.dll",
+        "build/netstandard2.0/runtimes/unix/lib/netstandard1.3/System.Security.Cryptography.Encoding.dll",
+        "build/netstandard2.0/runtimes/unix/lib/netstandard1.3/System.Text.Encoding.CodePages.dll",
+        "build/netstandard2.0/runtimes/unix/lib/netstandard1.6/System.Security.Cryptography.Algorithms.dll",
+        "build/netstandard2.0/runtimes/win/lib/netstandard1.1/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "build/netstandard2.0/runtimes/win/lib/netstandard1.3/Microsoft.Win32.Registry.dll",
+        "build/netstandard2.0/runtimes/win/lib/netstandard1.3/System.Diagnostics.TraceSource.dll",
+        "build/netstandard2.0/runtimes/win/lib/netstandard1.3/System.Globalization.Extensions.dll",
+        "build/netstandard2.0/runtimes/win/lib/netstandard1.3/System.Security.Cryptography.Csp.dll",
+        "build/netstandard2.0/runtimes/win/lib/netstandard1.3/System.Security.Cryptography.Encoding.dll",
+        "build/netstandard2.0/runtimes/win/lib/netstandard1.3/System.Text.Encoding.CodePages.dll",
+        "build/netstandard2.0/runtimes/win/lib/netstandard1.4/System.Diagnostics.Process.dll",
+        "build/netstandard2.0/runtimes/win/lib/netstandard1.6/System.Security.Cryptography.Algorithms.dll",
+        "coverlet.msbuild.2.0.1.nupkg.sha512",
+        "coverlet.msbuild.nuspec"
+      ]
+    },
     "Microsoft.CodeCoverage/15.9.0": {
       "sha512": "oherNadUtHKqFQbtdRKXgPvZVWyGkOeS83pFWT864587npS7JIFWIJ/LJV0c25cWNkCytn2S9XGSSkKscnNFAQ==",
       "type": "package",
@@ -5863,6 +5949,7 @@
       "Microsoft.NET.Test.Sdk >= 15.9.0",
       "Microsoft.NETCore.App >= 2.2.0",
       "TheRetailStoreDiscounts.ClassLib >= 1.0.0",
+      "coverlet.msbuild >= 2.0.1",
       "xunit >= 2.4.0",
       "xunit.runner.visualstudio >= 2.4.0"
     ]
@@ -5919,6 +6006,10 @@
             "target": "Package",
             "version": "[2.2.0, )",
             "autoReferenced": true
+          },
+          "coverlet.msbuild": {
+            "target": "Package",
+            "version": "[2.0.1, )"
           },
           "xunit": {
             "target": "Package",

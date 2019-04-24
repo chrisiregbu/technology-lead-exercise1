@@ -54,3 +54,7 @@ cd build
 4. From the toolbar menu select View > Terminal
 5. To run the tests enter the command, <dotnet test> and you can check the status of the tests
 
+#Generating Coverage Reports
+1. From the project folder (TheRetailStoreDiscounts) then cd test
+2. Run the command: dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=lcov /p:CoverletOutput=./lcov.info .\TheRetailStoreDiscounts.Tests
+3. 

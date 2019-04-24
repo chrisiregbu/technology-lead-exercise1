@@ -9,10 +9,12 @@
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.9.0" />
     <PackageReference Include="xunit" Version="2.4.0" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.4.0" />
+    <PackageReference Include="coverlet.msbuild" Version="2.0.1" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\TheRetailStoreDiscounts.ClassLib\TheRetailStoreDiscounts.ClassLib.csproj" /> 
+    <ProjectReference Include="..\..\src\TheRetailStoreDiscounts.ClassLib\TheRetailStoreDiscounts.ClassLib.csproj" />
+    <DotNetCliToolReference Include="dotnet-reportgenerator-cli" Version="4.0.0-alpha12" />
   </ItemGroup>
 
 </Project>

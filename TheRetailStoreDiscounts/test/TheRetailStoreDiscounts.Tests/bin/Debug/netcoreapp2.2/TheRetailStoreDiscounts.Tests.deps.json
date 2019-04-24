@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "93b5d6fa096726aa90619b72e309439934091475"
+    "signature": "129a398d7dff8c58c7c04832a580870db4f0f1be"
   },
   "compilationOptions": {},
   "targets": {
@@ -10,6 +10,7 @@
         "dependencies": {
           "Microsoft.NET.Test.Sdk": "15.9.0",
           "TheRetailStoreDiscounts.ClassLib": "1.0.0",
+          "coverlet.msbuild": "2.0.1",
           "xunit": "2.4.0",
           "xunit.runner.visualstudio": "2.4.0"
         },
@@ -17,6 +18,7 @@
           "TheRetailStoreDiscounts.Tests.dll": {}
         }
       },
+      "coverlet.msbuild/2.0.1": {},
       "Microsoft.CodeCoverage/15.9.0": {
         "runtime": {
           "lib/netcoreapp1.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll": {
@@ -1066,6 +1068,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "coverlet.msbuild/2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KB0c58cTgNRVUCYR4lnLRdIhrlynWJIfDGHS6vm6ieGw6GQQ1r2WRBqW+VvqCfcQuHBRPe+aVVq8q87q1kmA9w==",
+      "path": "coverlet.msbuild/2.0.1",
+      "hashPath": "coverlet.msbuild.2.0.1.nupkg.sha512"
     },
     "Microsoft.CodeCoverage/15.9.0": {
       "type": "package",
