@@ -51,7 +51,7 @@ cd build
 1. The tests can be run from the Visual Studio code command line:
 2. Press F5 to build the code
 3. Navigate to the solution folder "TheRetailStoreDiscounts" and load it into Visual Studio Code IDE or any other IDE
-4. From the toolbar menu select View > Terminal
+4. From thse toolbar menu select View > Terminal
 5. To run the tests enter the command, <dotnet test> and you can check the status of the tests
 
 #Generating Coverage Reports
